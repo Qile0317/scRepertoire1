@@ -489,6 +489,8 @@ short.check <- function(df, cloneCall) {
   return(min)
 }
 
+#' @keywords internal
+#' @noRd
 select.gene <- function(df, chain, gene, label) {
   if (chain %in% c("TRB", "TRD", "IGH")) {
     gene <- unname(c(V = 1, D = 2, J = 3, C = 4)[gene])

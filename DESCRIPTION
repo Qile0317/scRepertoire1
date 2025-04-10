@@ -1,4 +1,4 @@
-Package: scRepertoire
+Package: scRepertoire1
 Title: A toolkit for single-cell immune receptor profiling
 Version: 1.11.0
 Authors@R: c(
@@ -7,7 +7,7 @@ Description: scRepertoire was built to process data derived from the 10x Genomic
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.2
 biocViews: Software, ImmunoOncology, SingleCell, Classification, Annotation, Sequencing
 Depends: 
 	ggplot2, 
